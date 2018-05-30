@@ -1,7 +1,7 @@
 ### How Does Batch Normalization Help Optimization? (No, It Is Not About Internal Covariate Shift)
-
-####Link: https://arxiv.org/pdf/1805.11604.pdf
 ---
+
+#### Link: https://arxiv.org/pdf/1805.11604.pdf
 
 At a high level, **BatchNorm** is a technique that aims to improve training of neural networks by stabilizing the distributions of layer inputs. This is achieved by introducing additional network layers that control the first two moments (mean and variance) of these distributions. In keras, `BatchNormalization` maintains the mean activation close to 0 and the activation standard deviation close to 1.
 
